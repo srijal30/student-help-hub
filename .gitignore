@@ -1,0 +1,28 @@
+# enviorment specific
+.venv
+venv
+.env
+env
+
+
+# reactjs 
+.idea/
+node_modules/
+build/
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+lerna-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+.npm/
+
+
+# python
+__pycache__
+
+
+# code editor
+.vscode
