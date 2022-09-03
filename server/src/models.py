@@ -20,3 +20,14 @@ class UserIn(BaseModel):
     username: str
     password: str
     email: str
+
+
+class UserOut(BaseModel):
+    username: str
+    email: str
+    # to be added: Essays + Comments + Karma
+
+
+class Auth(BaseModel):
+    """Takes in token from user."""
+    token: str
