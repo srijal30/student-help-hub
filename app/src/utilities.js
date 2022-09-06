@@ -1,5 +1,5 @@
 async function getResponse(endpoint, payload){
-    const url = 'http://localhost:8000' + endpoint;
+    const url = 'http://54.87.10.175:8000' + endpoint;
     return await fetch(url, {
         method: 'POST',
         headers: {
