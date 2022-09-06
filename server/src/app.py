@@ -20,7 +20,7 @@ app.include_router(user_router)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],
-    allow_methods=['POST']
+    allow_methods=['POST', 'OPTIONS']
 )
 
 

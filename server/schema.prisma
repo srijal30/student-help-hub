@@ -1,37 +1,39 @@
-datasource db {
-    provider = "sqlite"
-    url      = "file:data.sqlite"
-}
-
 generator client {
-    provider = "prisma-client-py"
+  provider = "prisma-client-py"
 }
 
-model User{
-    id String @unique@id@default(uuid())
-    email String @unique
-    username String
-    password String
-
-    essays Essay[]
-    comments Comment[]
+datasource db {
+  provider = "sqlite"
+  url      = "file:data.sqlite"
 }
 
-model Essay{
-    id String @unique@id@default(uuid())
-    creator User @relation(fields: [creator_id], references: [id]) 
-    creator_id String
-
-    title String
-    content String
-    comments Comment[]
+model User {
+  id       String    @id @unique @default(uuid())
+  email    String    @unique
+  username String
+  password String
+  coins    Int
+  comments Comment[]
+  essays   Essay[]
 }
 
-model Comment{
-    id String @unique@id@default(uuid())
-    creator User @relation(fields: [creator_id], references: [id])
-    creator_id String
+model Essay {
+  id         String    @id @unique @default(uuid())
+  creator_id String
+  anonymous  Boolean
+  title      String
+  content    String
+  message    String
+  creator    User      @relation(fields: [creator_id], references: [id])
+  comments   Comment[]
+}
 
-    essay Essay @relation(fields: [essay_id], references: [id])
-    essay_id String
+model Comment {
+  id         String   @id @unique @default(uuid())
+  creator_id String
+  essay_id   String
+  content    String
+  rating     Float
+  creator    User     @relation(fields: [creator_id], references: [id])
+  essay      Essay    @relation(fields: [essay_id], references: [id])
 }
