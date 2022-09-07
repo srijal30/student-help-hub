@@ -1,1 +1,1 @@
-(website)[https://srijal30.github.io/student-help-hub/]
+[website](https://srijal30.github.io/student-help-hub/)
