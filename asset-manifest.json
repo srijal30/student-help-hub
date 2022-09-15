@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/student-help-hub/static/css/main.d70ae0ce.css",
-    "main.js": "/student-help-hub/static/js/main.b9c1e29e.js",
+    "main.js": "/student-help-hub/static/js/main.6dbaf07e.js",
     "static/media/art.jpg": "/student-help-hub/static/media/art.883014f7c51b208da19c.jpg",
     "static/media/help.jpg": "/student-help-hub/static/media/help.8da9b15fb88510ac933d.jpg",
     "index.html": "/student-help-hub/index.html",
     "main.d70ae0ce.css.map": "/student-help-hub/static/css/main.d70ae0ce.css.map",
-    "main.b9c1e29e.js.map": "/student-help-hub/static/js/main.b9c1e29e.js.map"
+    "main.6dbaf07e.js.map": "/student-help-hub/static/js/main.6dbaf07e.js.map"
   },
   "entrypoints": [
     "static/css/main.d70ae0ce.css",
-    "static/js/main.b9c1e29e.js"
+    "static/js/main.6dbaf07e.js"
   ]
 }
