@@ -1,5 +1,6 @@
 
 [Github Pages](https://srijal30.github.io/student-help-hub/) <br>
+**Note:** The backend has been deactivated, so the website is not fully functional. Please clone this repository locally and run if you wish to use it.
 
 ## Inspiration
 My school has a room called the writing center. In the writing center, students can get help on their essays from other students. The writing center really helped me with a lot of my school essays, so I thought why not create something similar to the writing center online! The coins system was inspired by CollegeVine's karma system.
