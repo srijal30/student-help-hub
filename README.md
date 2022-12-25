@@ -1,5 +1,5 @@
 
-[Github Pages](https://srijal30.github.io/student-help-hub/) <br>
+[Github Pages](https://srijal30.github.io/student-help-hub/) <br><br>
 **Note:** The backend has been deactivated, so the website is not fully functional. Please clone this repository locally and run if you wish to use it.
 
 ## Inspiration
